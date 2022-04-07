@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#movieBox {
+  border: solid;
+  padding: 1em;
+  margin: 1em;
+  background-color:#394F8A;
+  color:#E1FCFD;
+}
+
+#poster {
+  max-width: 100%;
+  height: auto;
+}
+
+#reviewBox {
+  max-height: 30em;
+}
+
+h3, h2 {
+  color:#9CF6FB
+}

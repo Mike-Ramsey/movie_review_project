@@ -5,7 +5,7 @@ export default class MovieList extends Component {
 
   render() {
     return (
-      <div>
+      <div id='background'>
         {this.props.movies.map((movie) => 
           <Movie key={movie.id} movie={movie} onSubmit={this.props.onSubmit}/>
         )}       

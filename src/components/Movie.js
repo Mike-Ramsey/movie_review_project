@@ -22,6 +22,8 @@ export default class Movie extends Component {
                   <br/>
                   <br/>
                   <ReviewForm reviews={this.props.movie.reviews} onSubmit={this.props.onSubmit} movie={this.props.movie}/>
+                  <br/>
+                  <br/>
                 </div>
                 <div className='col-sm-7'>
                   <div><ReviewList reviews={this.props.movie.reviews}/></div>

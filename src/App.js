@@ -269,7 +269,7 @@ export default class App extends Component {
       const index = moviesCopy.findIndex(i => i.id === (newReview.movieId))
       const movieCopy = {...state.movies[index]}
       const reviewsCopy = [...movieCopy.reviews]
-      reviewsCopy.push(newReview);
+      reviewsCopy.unshift(newReview);
       movieCopy.reviews=reviewsCopy;
       moviesCopy[index] = movieCopy;
       return {movies: moviesCopy};

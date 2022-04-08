@@ -13,7 +13,7 @@ code {
 }
 
 #movieBox {
-  border: solid;
+  /* border: solid; */
   padding: 1em;
   margin: 1em;
   background-color:#394F8A;
@@ -31,4 +31,13 @@ code {
 
 h3, h2 {
   color:#9CF6FB
+}
+
+#background {
+  background-color: #E1FCFD
+}
+
+#button {
+  background-color: #4A5FC1;
+  color: #E1FCFD
 }

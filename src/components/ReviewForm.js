@@ -69,7 +69,7 @@ export default class ReviewForm extends Component {
       <label>Review</label>
       <textarea className='form-control' rows='3' value={this.state.formData.review} onChange={this.onReviewChanged}/>
       <br/>
-      <button className="btn btn-primary" type="button" onClick={this.onSaveButtonClicked}>Save</button>
+      <button className="btn btn-primary" id='button' type="button" onClick={this.onSaveButtonClicked}>Save</button>
       </>
     )
   };
